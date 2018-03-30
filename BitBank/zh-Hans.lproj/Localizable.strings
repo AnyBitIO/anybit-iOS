@@ -1,0 +1,166 @@
+/* 
+  Localizable.strings
+  BitBank
+
+  Created by 张蒙蒙 on 2018/2/28.
+  Copyright © 2018年 张蒙蒙. All rights reserved.
+*/
+
+"bl_wallet" = "钱包";
+"bl_market" = "行情";
+"bl_infomation" = "资讯";
+"bl_contact" = "联系人";
+"bl_setting" = "设置";
+
+
+"common_cancel" = "取消";
+"common_delete" = "删除";
+"common_back" = "返回";
+"common_set_success" = "设置成功";
+"common_create_success" = "创建成功";
+"common_yesterday" = "昨天";
+"common_monday" = "星期一";
+"common_tuesday" = "星期二";
+"common_wednesday" = "星期三";
+"common_thursday" = "星期四";
+"common_friday" = "星期五";
+"common_saturday" = "星期六";
+"common_sunday" = "星期天";
+"common_privatekey" = "私钥";
+"common_address" = "地址";
+"common_input_limit" = "请输入数字、字母或中文";
+"common_input_Number" = "请输入数字";
+"common_input_length_20" = "最多输入20个字符";
+"common_input_length_10" = "最多输入10个字符";
+
+"request_netError" = "网络连接异常,请检查您的网络是否可用";
+"request_serverError" = "服务器出了点小问题,请稍后再试";
+
+"login_createWallet" = "创建钱包";
+"login_finish" = "完成";
+"login_recoverWallet" = "恢复钱包";
+"login_createInfo" = "请确认已经保存好如下的钱包助记词并妥善保管，可以用来找回本次创建的钱包。";
+"login_createAttention" = "请务必确保助记词的安全";
+"login_next" = "下一步";
+"login_checkSeedTitle" = "验证助记词";
+"login_inputSeedNotice" = "请输入创建钱包时记录的助记词";
+"login_checkSeedInfo" = "请按顺序点击助记词，以确认助记词记录正确";
+"login_skip" = "跳过";
+"login_seedNotice" = "请输入助记词";
+"login_walletName" = "请设置钱包名称";
+"login_read_lab" = "我已仔细阅读并同意";
+"login_read_btn" = "服务及隐私条款";
+"login_pswLoginNotice" = "请设置六位登录密码";
+"login_pswLoginNoticeTwice" = "请务必记住登录密码，否则无法登录";
+"login_pswPayNotice" = "请设置六位交易密码";
+"login_pswPayNoticeTwice" = "请务必记住交易密码，否则无法进行交易";
+"login_seedError" = "助记词错误,请重新输入";
+"login_loginError" = "密码错误";
+"login_PayError" = "交易密码输入有误,请重新输入";
+"login_inputPswLogin" = "请输入登录密码";
+"login_inputPswPay" = "请输入交易密码";
+
+"wallet_name_same" = "钱包名称重复 ";
+"wallet_name_unEmpty" = "请输入1-10位钱包名称";
+"wallet_addCoin" = "添加货币";
+"wallet_recoverCoin" = "恢复货币";
+"wallet_bitbank" = "AnyBit";
+"wallet_total_assets" = "总资产";
+"wallet_fuKuan" = "付款";
+"wallet_shouKuan" = "收款";
+"wallet_currency" = "币种";
+"wallet_count" = "数量";
+"wallet_assets" = "资产";
+"wallet_tran_record" = "交易记录";
+"wallet_tran_succress" = "成功";
+"wallet_tran_check" = "待确认";
+"wallet_tran_invalid" = "无效";
+"wallet_copy_address" = "复制地址";
+"wallet_copy_success" = "复制成功";
+"wallet_addeess" = "地址";
+"wallet_money" = "金额";
+"wallet_remark" = "备注";
+"wallet_fee" = "费用";
+"wallet_fee_notice" = "已为您推荐最优手续费，手续费过低可能会影响交易速度及成功率。";
+"wallet_cancel" = "取消";
+"wallet_tran_detail" = "详情";
+"wallet_tran_time" = "交易时间";
+"wallet_tran_type" = "交易类型";
+"wallet_tran_address" = "对方地址";
+"wallet_tran_remark" = "备注信息";
+"wallet_tranId" = "交易ID";
+"wallet_tran_status" = "交易状态";
+"wallet_loading_fail" = "加载失败";
+"wallet_tran_success" = "交易成功";
+"wallet_tran_noSelf" = "收款地址不能是自己";
+"wallet_tran_without_money" = "请输入金额";
+"wallet_tran_few_fee" = "手续费不能低于万分之一，否则难以交易";
+"wallet_tran_no_record" = "当前没有交易记录";
+"wallet_tran_fail" = "构建交易失败，请重试";
+
+
+"setting_delete_wallet" = "删除钱包";
+"setting_my_account" = "个人中心";
+"setting_security" = "安全中心";
+"setting_FAQ" = "常见问题";
+"setting_change_loginPsd" = "修改登录密码";
+"setting_need_login" = "每次打开应用重新登录";
+"setting_change_payPsd" = "修改支付密码";
+"setting_coin" = "设置默认货币";
+"setting_set_coin" = "请您设置默认货币";
+"setting_about_us" = "关于我们";
+"setting_export_privatekey" = "导出私钥";
+"setting_photo" = "头像";
+"setting_wallet_name" = "钱包名称";
+"setting_check_update" = "检查更新";
+"set_language" = "设置系统语言";
+"set_sure" = "确定";
+"set_simpleChinese" = "简体中文";
+"set_english" = "English";
+"set_old_password" = "输入旧密码";
+"set_password_notice" = "请输入六位数字密码";
+"set_new_password" = "输入新密码";
+"set_confirm_password" = "确认新密码";
+"set_empty_password" = "密码不能为空";
+"set_length_password" = "请输入6位数字的密码";
+"set_error_password" = "旧密码输入有误,请重新输入";
+"set_different_password" = "两次输入的新密码不一致,请重新输入";
+"set_version_log" = "版本日志";
+"set_update_version" = "更新到最新版本";
+"set_update" = "更新";
+"set_check_newset_version" = "检测到最新版本";
+"set_newset_version" = "已是最新版本";
+"set_current_version" = "当前版本";
+"set_key_title_one" = "以下是";
+"set_key_title_two" = "的地址和私钥，点击可复制";
+"set_key_attention_one" = "注意！拥有私钥就可以控制该地址的";
+"set_key_attention_two" = "资产，请储存于可信任的位置，不要分享给其他人";
+"set_version_101" = "1、支持创建及恢复钱包\n2、基于助记词创建钱包\n3、支持钱包基本功能：收付款、联系人、资讯行情、交易记录及详情";
+"set_version_103" = "1.增加行情信息\n2.优化设置界面\n3.优化钱包创建流程\n4.待确认资产不可使用";
+"set_delete_wallet_notice" = "请注意，当前操作不可撤销！";
+"set_delete_wallet_notice_content" = "请确认您已备份当前钱包助记词，否则将丢失您的货币资产";
+"set_terms_of_use" = "使用协议";
+"set_privacy_policy" = "隐私条款";
+"set_contact_us" = "联系我们";
+"set_recommend_share" = "推荐分享";
+"set_about_us" = "AnyBit支持多种货币的存储与交易，致力于为用户提供更安全、便捷、功能强大的数字资产钱包服务。";
+"set_mail" = "请联系邮箱";
+"set_copy" = "复制";
+
+"contact_serach_notice" = "请输入昵称";
+"contact_add_user" = "添加联系人";
+"contact_edit_user" = "编辑联系人";
+"contact_add_success" = "添加成功";
+"contact_edit_success" = "编辑成功";
+"contact_delete_success" = "删除成功";
+"contact_nickName" = "昵称";
+"contact_coin" = "币种";
+"contact_wallet_address" = "地址";
+"contact_without_coin" = "请选择货币种类";
+"contact_without_wallet_address" = "请输入地址";
+"contact_wallet_address_error" = "地址有误，请检查后重新输入";
+"contact_select_currency" = "选择货币";
+
+"market_no" = "此功能暂未开放";
+
+"information_coming" = "敬请期待";

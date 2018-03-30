@@ -1,0 +1,1 @@
+../../../Bitheri/Bitheri/Core/BTSettings.h

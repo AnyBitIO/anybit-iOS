@@ -1,0 +1,167 @@
+/* 
+  Localizable.strings
+  BitBank
+
+  Created by 张蒙蒙 on 2018/2/28.
+  Copyright © 2018年 张蒙蒙. All rights reserved.
+*/
+
+"bl_wallet" = "Wallet";
+"bl_market" = "Markets";
+"bl_infomation" = "Information";
+"bl_contact" = "Contacts";
+"bl_setting" = "Settings";
+
+"common_cancel" = "Cancel";
+"common_delete" = "Delete";
+"common_back" = "Back";
+"common_set_success" = "successfully set";
+"common_create_success" = "successfully create";
+"common_yesterday" = "yesterday";
+"common_monday" = "Monday";
+"common_tuesday" = "Tuesday";
+"common_wednesday" = "Wednesday";
+"common_thursday" = "Thursday";
+"common_friday" = "Friday";
+"common_saturday" = "Saturday";
+"common_sunday" = "Sunday";
+"common_privatekey" = " Private Key";
+"common_address" = "Address";
+"common_input_limit" = "Please input numbers, letters or Chinese.";
+"common_input_Number" = "Please input numbers";
+"common_input_length_20" = "Max 20 characters";
+"common_input_length_10" = "Max 10 characters";
+
+"request_netError" = "Unstable network,Try again later.";
+"request_serverError" = "Unstable server, Try again later";
+
+"login_finish" = "FINISH";
+"login_createWallet" = "Create Wallet";
+"login_recoverWallet" = "Restore Wallet";
+"login_createInfo" = "Please make sure that the following wallet mnemonic words has been saved and properly kept for retrieving the wallet created this time.";
+"login_createAttention" = "Make sure your mnemonic words is safe.";
+"login_next" = "Next";
+"login_checkSeedTitle" = "Verification mnemonic words";
+"login_checkSeedInfo" = "Please choose correct mnemonic words in order";
+"login_skip" = "Skip";
+"login_seedNotice" = "Please enter the mnemonic words";
+"login_walletName" = " Please Set Wallet Name";
+"login_read_lab" = "Agree on";
+"login_read_btn" = "Terms on Service and Private Policy";
+"login_inputSeedNotice" = "Please enter the mnemonic words that was recorded";
+"login_pswLoginNotice" = "Please set login password";
+"login_pswLoginNoticeTwice" = "remember the password, otherwise you can't login";
+"login_pswPayNotice" = "Please set transaction password";
+"login_pswPayNoticeTwice" = "Password is important , otherwise you can't trade";
+"login_seedError" = "Confirm failed，please examine your mnemonic words";
+"login_loginError" = "Invalid password";
+"login_PayError" = "Invalid password";
+"login_inputPswLogin" = "please enter login password";
+"login_inputPswPay" = "Please Enter Trading Password";
+
+
+"wallet_name_same" = "The name is taken, please try another";
+"wallet_name_unEmpty" = "Please input name betweem 1 to 10 characters";
+"wallet_addCoin" = "Add Currency";
+"wallet_recoverCoin" = "restore currency";
+"wallet_bitbank" = "AnyBit";
+"wallet_total_assets" = "Total assests";
+"wallet_fuKuan" = "Send";
+"wallet_shouKuan" = "Receive";
+"wallet_currency" = "Currency";
+"wallet_count" = "Amount";
+"wallet_assets" = "Assets";
+"wallet_tran_record" = "Transaction Records";
+"wallet_tran_succress" = "Success";
+"wallet_tran_check" = "Unconfirmed";
+"wallet_tran_invalid" = "invalid";
+"wallet_copy_address" = "Copy Address";
+"wallet_copy_success" = "Copied";
+"wallet_addeess" = "Address";
+"wallet_money" = "Amount";
+"wallet_remark" = "Remark";
+"wallet_fee" = "Fee";
+"wallet_fee_notice" = "An optimum  expense fee has been chosen for you. A higher fee could speed up the process.";
+"wallet_cancel" = "Cancel";
+"wallet_tran_detail" = "Details";
+"wallet_tran_time" = "Time";
+"wallet_tran_type" = "Type";
+"wallet_tran_address" = "Receiver’s Address";
+"wallet_tran_remark" = "Remarks";
+"wallet_tranId" = "Trade ID";
+"wallet_tran_status" = "Status";
+"wallet_loading_fail" = "fail to load";
+"wallet_tran_success" = "trade successfully";
+"wallet_tran_noSelf" = "he address can not be yourself";
+"wallet_tran_without_money" = "please enter mount";
+"wallet_tran_few_fee" = "Service charge cannot be less than one in a million";
+"wallet_tran_no_record" = "There are no transaction records to show";
+"wallet_tran_fail" = "Trade creation failed，try again ";
+
+
+"setting_delete_wallet" = "Delete Wallet";
+"setting_my_account" = "My Account";
+"setting_security" = "Security";
+"setting_FAQ" = "FAQ";
+"setting_change_loginPsd" = "Change Login Password";
+"setting_need_login" = "Re-login When App is Open";
+"setting_change_payPsd" = "Change Transacton Password";
+"setting_coin" = "Default Currency";
+"setting_set_coin" = "Please set default currency";
+"setting_about_us" = "About";
+"setting_export_privatekey" = "Export Private Key";
+"setting_photo" = "Photo";
+"setting_wallet_name" = "Wallet Name";
+"setting_check_update" = "Update";
+"set_language" = "Language";
+"set_sure" = "Confirm";
+"set_simpleChinese" = "简体中文";
+"set_english" = "English";
+"set_old_password" = "Current password";
+"set_password_notice" = "Please enter six-character numeric password";
+"set_new_password" = "New password";
+"set_confirm_password" = "Confirm new password";
+"set_empty_password" = "Password cannot be empty";
+"set_length_password" = "please enter password ";
+"set_error_password" = "old password is incorrect，enter again";
+"set_different_password" = "Password doesn’t match，please try again";
+"set_version_log" = "Version Release";
+"set_update_version" = "Update to the Latest Version";
+"set_update" = "update";
+"set_check_newset_version" = "upgrade to the latest version";
+"set_newset_version" = "No update available";
+"set_current_version" = "Current Version";
+"set_key_title_one" = "This is your ";
+"set_key_title_two" = "address and private key of your Anybit wallet. Tick them to copy";
+"set_key_attention_one" = "Caution! Anyone that has your address and ";
+"set_key_attention_two" = "private key can control all related assets. Do not share them";
+"set_version_101" = "1、Create and Restore wallet.\n2、Create the wallet based on mnemonic words.\n3、Support the basic functions of wallet: payments&receipts, contact, information, trade records and details.";
+"set_version_103" = "1.Add Markets page.\n2.Optimize the  interface of Settings.\n3.Optimizing wallet creation process.\n4.Unconfirmed assets are unusable.";
+"set_delete_wallet_notice" = "Caution!This operation CANNOT be revoked!";
+"set_delete_wallet_notice_content" = "Please confirm that you have backed up your wallet mnemonic words in case you lose your assets";
+"set_terms_of_use" = "Terms of Use";
+"set_privacy_policy" = "Privacy Policy";
+"set_contact_us" = "Contact Us";
+"set_recommend_share" = "Recommend and Share";
+"set_about_us" = "AnyBit supports multiple currencies for storage and trading.We aim to provide more Safe、Convenient and Powerful sevice for your blockchain assets. ";
+"set_mail" = "Contact us with E-MAIL";
+"set_copy" = "Copy";
+
+"contact_serach_notice" = "please enter nickname";
+"contact_add_user" = "Add Contact";
+"contact_edit_user" = "Edit contact";
+"contact_add_success" = "Success";
+"contact_edit_success" = "Success";
+"contact_delete_success" = "Successfully delete";
+"contact_nickName" = "Nickname";
+"contact_coin" = "Currency";
+"contact_wallet_address" = "Address";
+"contact_without_coin" = "Please select the kind of currencies";
+"contact_without_wallet_address" = "please enter address";
+"contact_wallet_address_error" = "Address is incorrect, please check";
+"contact_select_currency" = "Choose Currency";
+
+
+"market_no" = "This function is not yet available";
+
+"information_coming" = "Coming Soon";

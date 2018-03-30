@@ -1,0 +1,1 @@
+../../../Bitheri/Bitheri/utils/BTQRCodeUtil.h

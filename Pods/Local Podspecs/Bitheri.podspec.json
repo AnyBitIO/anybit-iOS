@@ -1,0 +1,38 @@
+{
+  "name": "Bitheri",
+  "version": "1.6.5",
+  "license": "Apache License, Version 2.0",
+  "summary": "bither's ios framework",
+  "homepage": "http://bither.net",
+  "social_media_url": "",
+  "authors": {
+    "bither": "bither@gmail.com"
+  },
+  "source": {
+    "git": "git@github.com:bither/bitheri.git",
+    "submodules": true,
+    "tag": "v1.6.5"
+  },
+  "requires_arc": true,
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": [
+    "Bitheri/Bitheri.{h,m}",
+    "Bitheri/{Models,Categories,Core,DatabaseProviders,Script,Utils,Log}/*.{h,m}"
+  ],
+  "dependencies": {
+    "OpenSSL": [
+      "1.0.1j"
+    ],
+    "Reachability": [
+      "~> 3.1.1"
+    ],
+    "FMDB": [
+      "~> 2.3"
+    ],
+    "CocoaLumberjack": [
+      "~> 1.9.1"
+    ]
+  }
+}
